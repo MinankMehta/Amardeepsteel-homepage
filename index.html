@@ -28,6 +28,28 @@
 
  <style>
 
+    #material > ul {
+    display: none;
+	opacity: 1;
+	visibility: visible;
+    position: absolute;
+    z-index: 20;
+    top: 48px;
+	width: 690px;
+    left: 0;
+    background-color: #f2f2f2; 
+}
+
+#material > ul:hover {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#material > ul li {
+    width: 100%;
+	background-color: #f2f2f2; 
+}
+
  .error {
     color: red;
     font-size: 12px;
@@ -363,8 +385,7 @@ height: auto;
           </ul>
         </li>
         <li class="has-sub" id="material"><a href="#"><span>Material of Construction</span></a>
-          <ul style="display: grid;
-    grid-template-columns: repeat(3, 1fr);">
+          <ul>
             <li><a href="stainless-steel-products.html"><span>Stainless Steel</span></a></li>
             <li><a href="carbon-steel-products.html"><span>Carbon Steel</span></a></li>
             <li class="last"><a href="alloy-steel-products.html"><span>Alloy Steel</span></a></li>
