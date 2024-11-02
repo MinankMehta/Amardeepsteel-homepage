@@ -33,7 +33,7 @@
 	opacity: 1;
 	visibility: visible;
     position: absolute;
-    z-index: 20;
+    z-index: 0;
     top: 48px;
 	width: 690px;
     left: 0;
@@ -43,11 +43,13 @@
 #material > ul:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+	z-index: 0;
 }
 
 #material > ul li {
     width: 100%;
 	background-color: #f2f2f2; 
+	z-index: 0;
 }
 
  .error {
