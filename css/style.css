@@ -270,27 +270,30 @@ p#socialicons2 img:hover {
 	display: block;
   }
 
-/*   #material > ul {
-    display: none;
-	opacity: 1;
-	visibility: visible;
-    position: absolute;
-    z-index: 20;
-    top: 48px;
-	width: 690px;
-    left: 0;
-    background-color: #f2f2f2; 
+ #material > ul {
+    display: none;                
+    opacity: 1;                         
+    visibility: hidden;                  
+    position: absolute;                   
+    z-index: 100;                          
+    top: 48px;                             
+    width: 690px;                           
+    left: 0;                                
+    background-color: #f2f2f2;              
 }
 
-#material > ul:hover {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+#material:hover > ul {
+    display: grid !important;                        
+    grid-template-columns: repeat(3, 1fr) !important;
+    visibility: visible;                  
+    z-index: 100;                         
 }
 
 #material > ul li {
     width: 100%;
 	background-color: #f2f2f2; 
-} */
+	z-index: 100;
+}
 
 #cssmenu > ul li.has-sub > ul {
 	display: none;
