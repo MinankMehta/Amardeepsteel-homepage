@@ -282,7 +282,7 @@ p#socialicons2 img:hover {
     background-color: #f2f2f2; 
 }
 
-#material > ul {
+#material > ul:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
